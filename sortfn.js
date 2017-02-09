@@ -8,7 +8,7 @@ var students = [
 console.log("Original Array\n ", students, "\n");
 //sort by age
 function sortAge(a, b) {
-  return a.age - b.age;
+  return b.age - a.age;
 }
 
 var sortedByAge = students.sort(sortAge);
